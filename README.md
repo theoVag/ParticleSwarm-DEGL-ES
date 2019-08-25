@@ -10,13 +10,21 @@ for Particles fitness function:
 res = outOfStock.area ∗ 10000 + overlapArea ∗ 10000 + dist_from_zero/10 ∗ 10 + 100 ∗ fsm
 
 where:
+
 dist from zero: Sum of edited_Order_area * (centroid.x + centroid.y) for each part of the order 
+
 outOfStock.area : Sum of edited_Order area that lies outside the current stock
+
 overlapArea: Sum of edited_Order area that is occupied by more than one polygon.
+
 #Measure of compactness fsm
+
 ch = (remaining.convexhull)
+
 lamda = (ch.area)=(remaining.area) − 1
+
 alpha = 1.1
+
 fsm = 1/(1 + alpha ∗ lambda)
 
 for DEGL fitness function: 
