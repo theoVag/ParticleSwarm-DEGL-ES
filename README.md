@@ -29,14 +29,18 @@ References for the algorithms used:
 GeneSIS Segmentation Algorithm for the Classification of Remotely Sensed Images,” Remote
 Sensing, vol. 7, no. 3, pp. 2474–2508, Mar. 2015. Online link: http://www.mdpi.com/2072-4292/
 7/3/2474 (p. 1)
+
 [2] S. Das, A. Abraham, U. Chakraborty, and A. Konar, “Differential Evolution Using a Neighborhood-Based Mutation Operator,” IEEE Transactions on Evolutionary Computation, vol. 13, no. 3,
 pp. 526–553, Jun. 2009. (p. 3)
+
 [3] S. Das and S. Sil, “Kernel-induced fuzzy clustering of image pixels with an improved differential
 evolution algorithm,” Information Sciences, vol. 180, no. 8, pp. 1237–1256, Apr. 2010. Online link:
-http://www.sciencedirect.com/science/article/pii/S0020025509005192 (αν. στη σελ. 3)
+http://www.sciencedirect.com/science/article/pii/S0020025509005192 (p. 3)
+
 [4] M. Dorigo and T. Stützle, Ant Colony Optimization, ser. Bradford Books. Cambridge, MA, USA:
 MIT Press, Jun. 2004. (p. 6)
 
 extra libraries:
 https://github.com/Toblerity/Shapely
+
 https://github.com/andim/noisyopt
