@@ -8,6 +8,7 @@ The purpose of this project is the optimized manangement of wood stock of carpen
 
 for Particles fitness function:
 res = outOfStock.area ∗ 10000 + overlapArea ∗ 10000 + dist_from_zero/10 ∗ 10 + 100 ∗ fsm
+
 where:
 dist from zero: Sum of edited_Order_area * (centroid.x + centroid.y) for each part of the order 
 outOfStock.area : Sum of edited_Order area that lies outside the current stock
