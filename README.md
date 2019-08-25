@@ -2,7 +2,7 @@
 Optimized manangement of wood stock of carpentry factories via Particles Swarm and Differential evolution DEGL
 
 
-Use of evolution algorithms for industrial processes optimization
+                          Use of evolution algorithms for industrial processes optimization
 
 The purpose of this project is the optimized manangement of wood stock of carpentry factories. For illustration purpose our data was 3 orders consisting of a list of polygons and 8 stocks in which our implementation should fit in the most appropriate way. The target is to fit the whole number of orders and beyond that to place the polygons of orders in stock such that the remainings of stocks can be exploited in new orders. This practical means that the remainings of stocks should as compact as it can. The implemented fitness function is the core of the solution and it is presented below.
 
@@ -26,6 +26,7 @@ This fitness function was used in different variants in Particle swarm algorithm
 Some execution examples images and details can be found in the report. The full report is available only in greek.
 
 References for the algorithms used:
+
 [1] S. K. Mylonas, D. G. Stavrakoudis, J. B. Theocharis, and P. A. Mastorocostas, “A Region-Based
 GeneSIS Segmentation Algorithm for the Classification of Remotely Sensed Images,” Remote
 Sensing, vol. 7, no. 3, pp. 2474–2508, Mar. 2015. Online link: http://www.mdpi.com/2072-4292/
